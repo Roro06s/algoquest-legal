@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de confidentialité — AlgoQuest</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0F172A;
+      color: #CBD5E1;
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    h1 { color: #F8FAFC; font-size: 1.8rem; margin-bottom: 0.5rem; }
+    h2 { color: #38BDF8; font-size: 1.15rem; margin-top: 2.5rem; margin-bottom: 0.75rem; border-bottom: 1px solid #1E293B; padding-bottom: 0.4rem; }
+    h3 { color: #94A3B8; font-size: 1rem; margin-top: 1.25rem; margin-bottom: 0.4rem; }
+    p { margin-bottom: 0.9rem; }
+    ul { margin: 0.5rem 0 0.9rem 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    .meta { color: #64748B; font-size: 0.85rem; margin-bottom: 2.5rem; }
+    a { color: #38BDF8; }
+    .badge {
+      display: inline-block;
+      background: #1E293B;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      padding: 0.15rem 0.6rem;
+      font-size: 0.8rem;
+      color: #94A3B8;
+      margin-right: 0.4rem;
+    }
+    .highlight {
+      background: #1E293B;
+      border-left: 3px solid #38BDF8;
+      padding: 0.75rem 1rem;
+      border-radius: 0 6px 6px 0;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Politique de confidentialité</h1>
+    <p class="meta">Application : AlgoQuest &nbsp;·&nbsp; Dernière mise à jour : 15 mai 2026 &nbsp;·&nbsp; Version 1.0</p>
+
+    <div class="highlight">
+      Cette politique explique quelles données AlgoQuest collecte, pourquoi, et comment vous pouvez exercer vos droits. Elle s'applique à l'application mobile AlgoQuest (iOS et Android).
+    </div>
+
+    <!-- 1 -->
+    <h2>1. Responsable du traitement</h2>
+    <p>
+      L'application AlgoQuest est éditée par <strong>[TON PRÉNOM NOM]</strong>, entrepreneur individuel basé en France.<br>
+      Contact : <a href="mailto:roro.sonigoo@gmail.com">roro.sonigoo@gmail.com</a>
+    </p>
+
+    <!-- 2 -->
+    <h2>2. Données collectées</h2>
+
+    <h3>2.1 Données que vous fournissez directement</h3>
+    <ul>
+      <li><strong>Adresse e-mail</strong> — lors de la création de compte (authentification)</li>
+      <li><strong>Données de progression</strong> — niveaux complétés, score, XP, streak, vies</li>
+      <li><strong>Préférences</strong> — langue choisie (FR/EN)</li>
+      <li><strong>Token de notification push</strong> — uniquement si vous acceptez les notifications (rappels streak)</li>
+    </ul>
+
+    <h3>2.2 Données collectées automatiquement</h3>
+    <ul>
+      <li><strong>Identifiant utilisateur unique</strong> (UUID généré à la création du compte)</li>
+      <li><strong>Données d'utilisation</strong> — écrans consultés, exercices lancés, durée de session (via PostHog)</li>
+      <li><strong>Données d'erreur</strong> — stack traces anonymisées (via Sentry) pour corriger les bugs</li>
+      <li><strong>Identifiant publicitaire</strong> — uniquement si vous consentez aux publicités (AdMob)</li>
+      <li><strong>Données d'abonnement</strong> — statut Pro, date de renouvellement (via RevenueCat)</li>
+    </ul>
+
+    <h3>2.3 Données NON collectées</h3>
+    <ul>
+      <li>Nom, prénom, numéro de téléphone</li>
+      <li>Données de localisation</li>
+      <li>Contacts, photos, microphone, caméra (sauf upload avatar optionnel)</li>
+      <li>Données bancaires (traitées directement par Apple/Google)</li>
+    </ul>
+
+    <!-- 3 -->
+    <h2>3. Finalités et bases légales (RGPD)</h2>
+    <ul>
+      <li><strong>Exécution du contrat</strong> — authentification, sauvegarde de la progression, gestion de l'abonnement Pro</li>
+      <li><strong>Intérêt légitime</strong> — détection de bugs (Sentry), amélioration de l'app (PostHog analytics anonymisés)</li>
+      <li><strong>Consentement</strong> — publicités personnalisées AdMob (demandé au premier lancement pour les utilisateurs EU)</li>
+      <li><strong>Obligation légale</strong> — conservation des données de facturation (10 ans, droit comptable français)</li>
+    </ul>
+
+    <!-- 4 -->
+    <h2>4. Partage avec des tiers</h2>
+    <p>Nous ne vendons jamais vos données. Nous utilisons les services suivants :</p>
+    <ul>
+      <li>
+        <span class="badge">Supabase</span> Authentification et base de données — serveurs EU (Frankfurt).
+        <a href="https://supabase.com/privacy" target="_blank">Politique Supabase</a>
+      </li>
+      <li>
+        <span class="badge">RevenueCat</span> Gestion des abonnements in-app.
+        <a href="https://www.revenuecat.com/privacy" target="_blank">Politique RevenueCat</a>
+      </li>
+      <li>
+        <span class="badge">PostHog</span> Analytics d'utilisation (données pseudonymisées, instance EU).
+        <a href="https://posthog.com/privacy" target="_blank">Politique PostHog</a>
+      </li>
+      <li>
+        <span class="badge">Sentry</span> Monitoring d'erreurs (stack traces, aucune donnée personnelle volontairement incluse).
+        <a href="https://sentry.io/privacy/" target="_blank">Politique Sentry</a>
+      </li>
+      <li>
+        <span class="badge">Google AdMob</span> Publicités in-app pour les utilisateurs du plan gratuit (<strong>uniquement avec votre consentement</strong> si vous êtes dans l'UE).
+        <a href="https://policies.google.com/privacy" target="_blank">Politique Google</a>
+      </li>
+      <li>
+        <span class="badge">Apple / Google</span> Paiements in-app traités directement par les stores. Nous ne recevons pas vos données bancaires.
+      </li>
+      <li>
+        <span class="badge">Railway</span> Hébergement du serveur backend (serveurs US). Aucune donnée personnelle identifiable n'est loguée.
+      </li>
+      <li>
+        <span class="badge">Upstash Redis</span> Cache temporaire (compteurs quotidiens, sessions). Données non persistées au-delà de 24h.
+      </li>
+    </ul>
+
+    <!-- 5 -->
+    <h2>5. Durée de conservation</h2>
+    <ul>
+      <li><strong>Compte actif</strong> — données conservées tant que le compte existe</li>
+      <li><strong>Après suppression du compte</strong> — données supprimées sous 30 jours (sauf obligation légale de facturation : 10 ans)</li>
+      <li><strong>Données d'analytics</strong> — anonymisées et agrégées après 12 mois</li>
+      <li><strong>Logs d'erreurs</strong> — supprimés après 90 jours</li>
+    </ul>
+
+    <!-- 6 -->
+    <h2>6. Vos droits (RGPD)</h2>
+    <p>Si vous êtes résident de l'Union Européenne, vous disposez des droits suivants :</p>
+    <ul>
+      <li><strong>Accès</strong> — obtenir une copie de vos données</li>
+      <li><strong>Rectification</strong> — corriger des données inexactes</li>
+      <li><strong>Suppression ("droit à l'oubli")</strong> — supprimer votre compte et vos données</li>
+      <li><strong>Portabilité</strong> — recevoir vos données dans un format structuré</li>
+      <li><strong>Opposition</strong> — vous opposer au traitement pour intérêt légitime</li>
+      <li><strong>Retrait du consentement</strong> — retirer votre consentement aux publicités à tout moment (Paramètres → Confidentialité)</li>
+    </ul>
+    <p>Pour exercer ces droits : <a href="mailto:roro.sonigoo@gmail.com">roro.sonigoo@gmail.com</a>. Nous répondons sous 30 jours.</p>
+    <p>Vous pouvez également déposer une plainte auprès de la <strong>CNIL</strong> : <a href="https://www.cnil.fr" target="_blank">cnil.fr</a></p>
+
+    <!-- 7 -->
+    <h2>7. Sécurité</h2>
+    <p>
+      Vos données sont transmises via HTTPS (TLS 1.2+). Les mots de passe ne sont jamais stockés en clair (gérés par Supabase Auth avec bcrypt). Les tokens d'API sont vérifiés via HMAC avec comparaison en temps constant pour prévenir les attaques timing.
+    </p>
+
+    <!-- 8 -->
+    <h2>8. Enfants</h2>
+    <p>
+      AlgoQuest est classé 4+ et ne collecte pas sciemment de données personnelles d'enfants de moins de 13 ans. Si vous êtes parent et pensez que votre enfant a créé un compte, contactez-nous pour le supprimer.
+    </p>
+
+    <!-- 9 -->
+    <h2>9. Transferts internationaux</h2>
+    <p>
+      Certains prestataires (Railway, RevenueCat) sont basés aux États-Unis. Ces transferts sont encadrés par les clauses contractuelles types (CCT) de la Commission Européenne ou le Data Privacy Framework UE-US.
+    </p>
+
+    <!-- 10 -->
+    <h2>10. Modifications</h2>
+    <p>
+      En cas de modification substantielle, vous serez notifié par une alerte dans l'application. La date de mise à jour figure en haut de cette page.
+    </p>
+
+    <!-- 11 -->
+    <h2>11. Contact</h2>
+    <p>
+      Pour toute question relative à cette politique :<br>
+      <a href="mailto:roro.sonigoo@gmail.com">roro.sonigoo@gmail.com</a>
+    </p>
+
+    <p style="margin-top:3rem; color:#475569; font-size:0.8rem; text-align:center;">
+      © 2026 AlgoQuest — Tous droits réservés
+    </p>
+  </div>
+</body>
+</html>
