@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Conditions Générales d'Utilisation — AlgoQuest</title>
+  <title>Terms of Use / Conditions Générales d'Utilisation — AlgoQuest</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -42,174 +42,323 @@
       margin: 1rem 0;
       font-size: 0.95rem;
     }
+    .lang-switch {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.4rem;
+      margin-bottom: 1.5rem;
+    }
+    .lang-switch button {
+      background: #1E293B;
+      border: 1px solid #334155;
+      color: #94A3B8;
+      border-radius: 6px;
+      padding: 0.3rem 0.8rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .lang-switch button.active {
+      background: #38BDF8;
+      border-color: #38BDF8;
+      color: #0F172A;
+      font-weight: 600;
+    }
+    [data-lang-content] { display: none; }
+    [data-lang-content].visible { display: block; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Conditions Générales d'Utilisation</h1>
-    <p class="meta">Application : AlgoQuest &nbsp;·&nbsp; Dernière mise à jour : 15 mai 2026 &nbsp;·&nbsp; Version 1.0</p>
-
-    <div class="highlight">
-      En téléchargeant ou utilisant AlgoQuest, vous acceptez les présentes conditions. Lisez-les attentivement avant d'utiliser l'application.
+    <div class="lang-switch">
+      <button type="button" data-lang-btn="en">English</button>
+      <button type="button" data-lang-btn="fr">Français</button>
     </div>
 
-    <!-- 1 -->
-    <h2>1. Éditeur</h2>
-    <p>
-      AlgoQuest est édité par <strong>Romain Sonigo</strong>, entrepreneur individuel basé en France.<br>
-      Contact : <a href="mailto:roro.sonigoo@gmail.com">roro.sonigoo@gmail.com</a>
-    </p>
+    <!-- ===================== ENGLISH ===================== -->
+    <div data-lang-content="en">
+      <h1>Terms of Use</h1>
+      <p class="meta">Application: AlgoQuest &nbsp;·&nbsp; Last updated: 15 May 2026 &nbsp;·&nbsp; Version 1.0</p>
 
-    <!-- 2 -->
-    <h2>2. Description du service</h2>
-    <p>
-      AlgoQuest est une application mobile d'apprentissage de la pensée algorithmique, disponible sur iOS et Android. Elle propose un parcours gamifié composé de niveaux, exercices interactifs, défis et évaluations, sans nécessiter de connaissances en programmation.
-    </p>
-    <p>L'application est disponible en deux versions :</p>
+      <div class="highlight">
+        By downloading or using AlgoQuest, you agree to these terms. Please read them carefully before using the application.
+      </div>
 
-    <table>
-      <tr>
-        <th>Plan</th>
-        <th>Contenu</th>
-        <th>Limite</th>
-        <th>Prix</th>
-      </tr>
-      <tr>
-        <td><strong>Gratuit</strong></td>
-        <td>Chapitres 1 à 7</td>
-        <td>30 exercices/jour · 5 vies</td>
-        <td>Gratuit</td>
-      </tr>
-      <tr>
-        <td><strong>Pro</strong></td>
-        <td>Chapitres 1 à 10 · Défis exclusifs · Certificat</td>
-        <td>Illimité · Vies illimitées</td>
-        <td>9,99 €/mois</td>
-      </tr>
-    </table>
+      <h2>1. Publisher</h2>
+      <p>
+        AlgoQuest is published by <strong>Romain Sonigo</strong>, a sole proprietor (entrepreneur individuel) based in France.<br>
+        Contact: <a href="mailto:roro.sonigoo@gmail.com">roro.sonigoo@gmail.com</a>
+      </p>
 
-    <!-- 3 -->
-    <h2>3. Création de compte</h2>
-    <p>
-      L'utilisation complète de l'application requiert la création d'un compte avec une adresse e-mail valide ou via Google OAuth. Vous êtes responsable de la confidentialité de vos identifiants et de toutes les actions effectuées depuis votre compte.
-    </p>
-    <p>
-      Vous devez avoir au moins <strong>13 ans</strong> pour créer un compte. En créant un compte, vous attestez remplir cette condition.
-    </p>
+      <h2>2. Service description</h2>
+      <p>
+        AlgoQuest is a mobile application for learning algorithmic thinking, available on iOS and Android. It offers a gamified journey of levels, interactive exercises, challenges and assessments, with no prior programming knowledge required.
+      </p>
+      <p>The application is available in two tiers:</p>
+      <table>
+        <tr><th>Plan</th><th>Content</th><th>Limit</th><th>Price</th></tr>
+        <tr><td><strong>Free</strong></td><td>Chapters 1 to 7</td><td>30 exercises/day · 5 lives</td><td>Free</td></tr>
+        <tr><td><strong>Pro</strong></td><td>Chapters 1 to 10 · Exclusive challenges · Certificate</td><td>Unlimited · Unlimited lives</td><td>€9.99/month</td></tr>
+      </table>
 
-    <!-- 4 -->
-    <h2>4. Abonnement Pro</h2>
+      <h2>3. Account creation</h2>
+      <p>
+        Full use of the application requires creating an account with a valid email address or via Google OAuth. You are responsible for keeping your credentials confidential and for all activity carried out from your account.
+      </p>
+      <p>
+        You must be at least <strong>13 years old</strong> to create an account. By creating an account, you confirm that you meet this requirement.
+      </p>
 
-    <h3>4.1 Souscription</h3>
-    <p>
-      L'abonnement Pro est proposé à <strong>9,99 € par mois</strong> (prix susceptible de varier selon le pays et la devise locale). Le paiement est traité par Apple (App Store) ou Google (Play Store) selon votre plateforme.
-    </p>
+      <h2>4. Pro subscription</h2>
+      <h3>4.1 Subscription</h3>
+      <p>
+        The Pro subscription is offered at <strong>€9.99 per month</strong> (price may vary by country and local currency). Payment is processed by Apple (App Store) or Google (Play Store) depending on your platform.
+      </p>
+      <h3>4.2 Automatic renewal</h3>
+      <div class="warning">
+        The subscription renews automatically at the end of each monthly period, unless cancelled at least 24 hours before the renewal date.
+      </div>
+      <h3>4.3 Cancellation</h3>
+      <p>You may cancel at any time via:</p>
+      <ul>
+        <li><strong>iOS</strong>: Settings → Apple ID → Subscriptions → AlgoQuest</li>
+        <li><strong>Android</strong>: Play Store → Subscriptions → AlgoQuest</li>
+      </ul>
+      <p>Cancellation takes effect at the end of the current period. No partial refund is granted for the remaining period, except where required by law.</p>
+      <h3>4.4 Refunds</h3>
+      <p>
+        Refund requests are handled directly by Apple or Google in accordance with their respective policies. AlgoQuest has no access to your payment data and cannot process refunds directly.
+      </p>
+      <h3>4.5 Free trial</h3>
+      <p>
+        If a free trial is offered, it applies once per Apple ID / Google Account. At the end of the trial period, the paid subscription starts automatically unless cancelled beforehand.
+      </p>
 
-    <h3>4.2 Renouvellement automatique</h3>
-    <div class="warning">
-      L'abonnement se renouvelle automatiquement à l'issue de chaque période mensuelle, sauf résiliation au moins 24 heures avant la date de renouvellement.
+      <h2>5. Intellectual property</h2>
+      <p>
+        All content within the application — exercises, educational texts, visual diagrams, graphical interface, source code, and the "AlgoQuest" trademark — is the exclusive property of the publisher and is protected by copyright (French Intellectual Property Code).
+      </p>
+      <p>
+        Any reproduction, distribution, modification or commercial exploitation, in whole or in part, without prior written authorization is strictly prohibited.
+      </p>
+      <p>
+        Use of the application grants you a <strong>personal, non-exclusive, non-transferable and revocable license</strong> to access the content for personal learning purposes only.
+      </p>
+
+      <h2>6. Prohibited conduct</h2>
+      <p>You may not:</p>
+      <ul>
+        <li>Attempt to bypass technical protections (paywall, daily limit, lives)</li>
+        <li>Use bots, scripts or automated tools to interact with the application</li>
+        <li>Extract, scrape or reproduce the educational content of the application</li>
+        <li>Access the backend APIs without express authorization</li>
+        <li>Create multiple accounts to circumvent the limitations of the free plan</li>
+        <li>Use the application for commercial purposes without written agreement</li>
+      </ul>
+      <p>
+        Any breach may result in suspension or deletion of the account without notice or refund.
+      </p>
+
+      <h2>7. Mastery certificate</h2>
+      <p>
+        The certificate issued to Pro users who complete all 10 chapters is an internal AlgoQuest certificate. It attests to progress within the application but does not constitute an official certification recognized by any government or certifying body.
+      </p>
+
+      <h2>8. Service availability</h2>
+      <p>
+        AlgoQuest strives to keep the service available 24/7. Interruptions may occur due to maintenance, updates or technical incidents beyond our control. No compensation is owed for such interruptions.
+      </p>
+      <p>
+        The publisher reserves the right to modify, suspend or discontinue all or part of the service at any time, with reasonable notice for substantial changes.
+      </p>
+
+      <h2>9. Advertising (free plan)</h2>
+      <p>
+        Interstitial advertisements may be shown to free-plan users after completing a level (at most once every 2 minutes). These ads are served by Google AdMob. Pro users see no advertising.
+      </p>
+
+      <h2>10. Limitation of liability</h2>
+      <p>
+        AlgoQuest is provided "as is". The publisher does not warrant that the application is error-free, nor that the results obtained are suitable for any particular professional or academic purpose.
+      </p>
+      <p>
+        To the extent permitted by applicable law, the publisher's liability is limited to the amount paid by the user during the 3 months preceding the incident.
+      </p>
+
+      <h2>11. Governing law and jurisdiction</h2>
+      <p>
+        These Terms are governed by <strong>French law</strong>. In the event of a dispute, an amicable solution will be sought first. Failing that, the competent French courts will have jurisdiction.
+      </p>
+      <p>
+        In accordance with Articles L.616-1 and R.616-1 of the French Consumer Code, you may use a consumer mediator. European online dispute resolution platform: <a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a>
+      </p>
+
+      <h2>12. Changes to the Terms</h2>
+      <p>
+        The publisher reserves the right to modify these Terms. In the event of a substantial change, you will be notified within the application at least 30 days before it takes effect. Continued use after this period constitutes acceptance of the new terms.
+      </p>
+
+      <h2>13. Contact</h2>
+      <p>
+        For any questions regarding these Terms:<br>
+        <a href="mailto:roro.sonigoo@gmail.com">roro.sonigoo@gmail.com</a>
+      </p>
+
+      <p style="margin-top:3rem; color:#475569; font-size:0.8rem; text-align:center;">
+        © 2026 AlgoQuest — All rights reserved
+      </p>
     </div>
 
-    <h3>4.3 Résiliation</h3>
-    <p>Vous pouvez résilier à tout moment via :</p>
-    <ul>
-      <li><strong>iOS</strong> : Réglages → Apple ID → Abonnements → AlgoQuest</li>
-      <li><strong>Android</strong> : Play Store → Abonnements → AlgoQuest</li>
-    </ul>
-    <p>La résiliation prend effet à la fin de la période en cours. Aucun remboursement partiel n'est accordé pour la période restante, sauf obligation légale.</p>
+    <!-- ===================== FRANÇAIS ===================== -->
+    <div data-lang-content="fr">
+      <h1>Conditions Générales d'Utilisation</h1>
+      <p class="meta">Application : AlgoQuest &nbsp;·&nbsp; Dernière mise à jour : 15 mai 2026 &nbsp;·&nbsp; Version 1.0</p>
 
-    <h3>4.4 Remboursements</h3>
-    <p>
-      Les demandes de remboursement sont gérées directement par Apple ou Google conformément à leurs politiques respectives. AlgoQuest n'a pas accès à vos données de paiement et ne peut pas traiter les remboursements directement.
-    </p>
+      <div class="highlight">
+        En téléchargeant ou utilisant AlgoQuest, vous acceptez les présentes conditions. Lisez-les attentivement avant d'utiliser l'application.
+      </div>
 
-    <h3>4.5 Essai gratuit</h3>
-    <p>
-      Si une offre d'essai gratuit est proposée, elle s'applique une seule fois par compte Apple ID / Google Account. À l'issue de la période d'essai, l'abonnement payant démarre automatiquement sauf résiliation préalable.
-    </p>
+      <h2>1. Éditeur</h2>
+      <p>
+        AlgoQuest est édité par <strong>Romain Sonigo</strong>, entrepreneur individuel basé en France.<br>
+        Contact : <a href="mailto:roro.sonigoo@gmail.com">roro.sonigoo@gmail.com</a>
+      </p>
 
-    <!-- 5 -->
-    <h2>5. Propriété intellectuelle</h2>
-    <p>
-      L'ensemble du contenu de l'application — exercices, textes pédagogiques, schémas visuels, interface graphique, code source, marque "AlgoQuest" — est la propriété exclusive de l'éditeur et est protégé par le droit d'auteur (Code de la propriété intellectuelle français).
-    </p>
-    <p>
-      Toute reproduction, distribution, modification ou exploitation commerciale, totale ou partielle, sans autorisation écrite préalable est strictement interdite.
-    </p>
-    <p>
-      L'utilisation de l'application vous confère une <strong>licence personnelle, non exclusive, non transférable et révocable</strong> pour accéder au contenu à des fins d'apprentissage personnel uniquement.
-    </p>
+      <h2>2. Description du service</h2>
+      <p>
+        AlgoQuest est une application mobile d'apprentissage de la pensée algorithmique, disponible sur iOS et Android. Elle propose un parcours gamifié composé de niveaux, exercices interactifs, défis et évaluations, sans nécessiter de connaissances en programmation.
+      </p>
+      <p>L'application est disponible en deux versions :</p>
+      <table>
+        <tr><th>Plan</th><th>Contenu</th><th>Limite</th><th>Prix</th></tr>
+        <tr><td><strong>Gratuit</strong></td><td>Chapitres 1 à 7</td><td>30 exercices/jour · 5 vies</td><td>Gratuit</td></tr>
+        <tr><td><strong>Pro</strong></td><td>Chapitres 1 à 10 · Défis exclusifs · Certificat</td><td>Illimité · Vies illimitées</td><td>9,99 €/mois</td></tr>
+      </table>
 
-    <!-- 6 -->
-    <h2>6. Comportements interdits</h2>
-    <p>Il est interdit de :</p>
-    <ul>
-      <li>Tenter de contourner les protections techniques (paywall, limite daily, vies)</li>
-      <li>Utiliser des robots, scripts ou outils automatisés pour interagir avec l'application</li>
-      <li>Extraire, scraper ou reproduire le contenu pédagogique de l'application</li>
-      <li>Accéder aux API backend sans autorisation expresse</li>
-      <li>Créer plusieurs comptes pour contourner les limitations du plan gratuit</li>
-      <li>Utiliser l'application à des fins commerciales sans accord écrit</li>
-    </ul>
-    <p>
-      Tout manquement peut entraîner la suspension ou suppression du compte sans préavis ni remboursement.
-    </p>
+      <h2>3. Création de compte</h2>
+      <p>
+        L'utilisation complète de l'application requiert la création d'un compte avec une adresse e-mail valide ou via Google OAuth. Vous êtes responsable de la confidentialité de vos identifiants et de toutes les actions effectuées depuis votre compte.
+      </p>
+      <p>
+        Vous devez avoir au moins <strong>13 ans</strong> pour créer un compte. En créant un compte, vous attestez remplir cette condition.
+      </p>
 
-    <!-- 7 -->
-    <h2>7. Certificat de maîtrise</h2>
-    <p>
-      Le certificat délivré aux utilisateurs Pro ayant complété l'intégralité des 10 chapitres est un certificat interne AlgoQuest. Il atteste de la progression au sein de l'application mais ne constitue pas une certification officielle reconnue par l'État ou un organisme de certification.
-    </p>
+      <h2>4. Abonnement Pro</h2>
+      <h3>4.1 Souscription</h3>
+      <p>
+        L'abonnement Pro est proposé à <strong>9,99 € par mois</strong> (prix susceptible de varier selon le pays et la devise locale). Le paiement est traité par Apple (App Store) ou Google (Play Store) selon votre plateforme.
+      </p>
+      <h3>4.2 Renouvellement automatique</h3>
+      <div class="warning">
+        L'abonnement se renouvelle automatiquement à l'issue de chaque période mensuelle, sauf résiliation au moins 24 heures avant la date de renouvellement.
+      </div>
+      <h3>4.3 Résiliation</h3>
+      <p>Vous pouvez résilier à tout moment via :</p>
+      <ul>
+        <li><strong>iOS</strong> : Réglages → Apple ID → Abonnements → AlgoQuest</li>
+        <li><strong>Android</strong> : Play Store → Abonnements → AlgoQuest</li>
+      </ul>
+      <p>La résiliation prend effet à la fin de la période en cours. Aucun remboursement partiel n'est accordé pour la période restante, sauf obligation légale.</p>
+      <h3>4.4 Remboursements</h3>
+      <p>
+        Les demandes de remboursement sont gérées directement par Apple ou Google conformément à leurs politiques respectives. AlgoQuest n'a pas accès à vos données de paiement et ne peut pas traiter les remboursements directement.
+      </p>
+      <h3>4.5 Essai gratuit</h3>
+      <p>
+        Si une offre d'essai gratuit est proposée, elle s'applique une seule fois par compte Apple ID / Google Account. À l'issue de la période d'essai, l'abonnement payant démarre automatiquement sauf résiliation préalable.
+      </p>
 
-    <!-- 8 -->
-    <h2>8. Disponibilité du service</h2>
-    <p>
-      AlgoQuest s'efforce de maintenir le service disponible 24h/24, 7j/7. Des interruptions peuvent survenir pour des raisons de maintenance, de mise à jour ou d'incidents techniques indépendants de notre volonté. Aucune indemnisation n'est due pour ces interruptions.
-    </p>
-    <p>
-      L'éditeur se réserve le droit de modifier, suspendre ou arrêter tout ou partie du service à tout moment, avec un préavis raisonnable pour les modifications substantielles.
-    </p>
+      <h2>5. Propriété intellectuelle</h2>
+      <p>
+        L'ensemble du contenu de l'application — exercices, textes pédagogiques, schémas visuels, interface graphique, code source, marque "AlgoQuest" — est la propriété exclusive de l'éditeur et est protégé par le droit d'auteur (Code de la propriété intellectuelle français).
+      </p>
+      <p>
+        Toute reproduction, distribution, modification ou exploitation commerciale, totale ou partielle, sans autorisation écrite préalable est strictement interdite.
+      </p>
+      <p>
+        L'utilisation de l'application vous confère une <strong>licence personnelle, non exclusive, non transférable et révocable</strong> pour accéder au contenu à des fins d'apprentissage personnel uniquement.
+      </p>
 
-    <!-- 9 -->
-    <h2>9. Publicités (plan gratuit)</h2>
-    <p>
-      Des publicités interstitielles peuvent être affichées aux utilisateurs du plan gratuit après la complétion d'un niveau (maximum toutes les 2 minutes). Ces publicités sont gérées par Google AdMob. Les utilisateurs Pro ne voient aucune publicité.
-    </p>
+      <h2>6. Comportements interdits</h2>
+      <p>Il est interdit de :</p>
+      <ul>
+        <li>Tenter de contourner les protections techniques (paywall, limite daily, vies)</li>
+        <li>Utiliser des robots, scripts ou outils automatisés pour interagir avec l'application</li>
+        <li>Extraire, scraper ou reproduire le contenu pédagogique de l'application</li>
+        <li>Accéder aux API backend sans autorisation expresse</li>
+        <li>Créer plusieurs comptes pour contourner les limitations du plan gratuit</li>
+        <li>Utiliser l'application à des fins commerciales sans accord écrit</li>
+      </ul>
+      <p>
+        Tout manquement peut entraîner la suspension ou suppression du compte sans préavis ni remboursement.
+      </p>
 
-    <!-- 10 -->
-    <h2>10. Limitation de responsabilité</h2>
-    <p>
-      AlgoQuest est fourni "tel quel". L'éditeur ne garantit pas que l'application est exempte d'erreurs, ni que les résultats obtenus sont adaptés à un objectif professionnel ou académique particulier.
-    </p>
-    <p>
-      Dans les limites autorisées par la loi applicable, la responsabilité de l'éditeur est limitée au montant payé par l'utilisateur au cours des 3 derniers mois précédant l'incident.
-    </p>
+      <h2>7. Certificat de maîtrise</h2>
+      <p>
+        Le certificat délivré aux utilisateurs Pro ayant complété l'intégralité des 10 chapitres est un certificat interne AlgoQuest. Il atteste de la progression au sein de l'application mais ne constitue pas une certification officielle reconnue par l'État ou un organisme de certification.
+      </p>
 
-    <!-- 11 -->
-    <h2>11. Droit applicable et juridiction</h2>
-    <p>
-      Les présentes CGU sont régies par le <strong>droit français</strong>. En cas de litige, une solution amiable sera recherchée en priorité. À défaut, les tribunaux français compétents seront saisis.
-    </p>
-    <p>
-      Conformément aux articles L.616-1 et R.616-1 du code de la consommation, vous pouvez recourir à un médiateur de la consommation. Plateforme européenne de règlement en ligne des litiges : <a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a>
-    </p>
+      <h2>8. Disponibilité du service</h2>
+      <p>
+        AlgoQuest s'efforce de maintenir le service disponible 24h/24, 7j/7. Des interruptions peuvent survenir pour des raisons de maintenance, de mise à jour ou d'incidents techniques indépendants de notre volonté. Aucune indemnisation n'est due pour ces interruptions.
+      </p>
+      <p>
+        L'éditeur se réserve le droit de modifier, suspendre ou arrêter tout ou partie du service à tout moment, avec un préavis raisonnable pour les modifications substantielles.
+      </p>
 
-    <!-- 12 -->
-    <h2>12. Modifications des CGU</h2>
-    <p>
-      L'éditeur se réserve le droit de modifier les présentes CGU. En cas de modification substantielle, vous serez notifié via l'application au moins 30 jours avant l'entrée en vigueur. La poursuite de l'utilisation après ce délai vaut acceptation des nouvelles conditions.
-    </p>
+      <h2>9. Publicités (plan gratuit)</h2>
+      <p>
+        Des publicités interstitielles peuvent être affichées aux utilisateurs du plan gratuit après la complétion d'un niveau (maximum toutes les 2 minutes). Ces publicités sont gérées par Google AdMob. Les utilisateurs Pro ne voient aucune publicité.
+      </p>
 
-    <!-- 13 -->
-    <h2>13. Contact</h2>
-    <p>
-      Pour toute question concernant ces CGU :<br>
-      <a href="mailto:roro.sonigoo@gmail.com">roro.sonigoo@gmail.com</a>
-    </p>
+      <h2>10. Limitation de responsabilité</h2>
+      <p>
+        AlgoQuest est fourni "tel quel". L'éditeur ne garantit pas que l'application est exempte d'erreurs, ni que les résultats obtenus sont adaptés à un objectif professionnel ou académique particulier.
+      </p>
+      <p>
+        Dans les limites autorisées par la loi applicable, la responsabilité de l'éditeur est limitée au montant payé par l'utilisateur au cours des 3 derniers mois précédant l'incident.
+      </p>
 
-    <p style="margin-top:3rem; color:#475569; font-size:0.8rem; text-align:center;">
-      © 2026 AlgoQuest — Tous droits réservés
-    </p>
+      <h2>11. Droit applicable et juridiction</h2>
+      <p>
+        Les présentes CGU sont régies par le <strong>droit français</strong>. En cas de litige, une solution amiable sera recherchée en priorité. À défaut, les tribunaux français compétents seront saisis.
+      </p>
+      <p>
+        Conformément aux articles L.616-1 et R.616-1 du code de la consommation, vous pouvez recourir à un médiateur de la consommation. Plateforme européenne de règlement en ligne des litiges : <a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a>
+      </p>
+
+      <h2>12. Modifications des CGU</h2>
+      <p>
+        L'éditeur se réserve le droit de modifier les présentes CGU. En cas de modification substantielle, vous serez notifié via l'application au moins 30 jours avant l'entrée en vigueur. La poursuite de l'utilisation après ce délai vaut acceptation des nouvelles conditions.
+      </p>
+
+      <h2>13. Contact</h2>
+      <p>
+        Pour toute question concernant ces CGU :<br>
+        <a href="mailto:roro.sonigoo@gmail.com">roro.sonigoo@gmail.com</a>
+      </p>
+
+      <p style="margin-top:3rem; color:#475569; font-size:0.8rem; text-align:center;">
+        © 2026 AlgoQuest — Tous droits réservés
+      </p>
+    </div>
   </div>
+
+  <script>
+    (function () {
+      var buttons = document.querySelectorAll('[data-lang-btn]');
+      var contents = document.querySelectorAll('[data-lang-content]');
+      function setLang(lang) {
+        contents.forEach(function (c) { c.classList.toggle('visible', c.getAttribute('data-lang-content') === lang); });
+        buttons.forEach(function (b) { b.classList.toggle('active', b.getAttribute('data-lang-btn') === lang); });
+        document.documentElement.lang = lang;
+      }
+      buttons.forEach(function (b) {
+        b.addEventListener('click', function () { setLang(b.getAttribute('data-lang-btn')); });
+      });
+      var initial = (navigator.language || 'en').toLowerCase().indexOf('fr') === 0 ? 'fr' : 'en';
+      setLang(initial);
+    })();
+  </script>
 </body>
 </html>
